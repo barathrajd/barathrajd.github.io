@@ -1,0 +1,159 @@
+.section-home {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: #242424 !important;
+  width: 100%;
+  height: 80vh;
+}
+
+.sec-left {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.contact p {
+  text-align: center;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.social {
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: space-evenly;
+  color: #242424 !important;
+  text-decoration: none;
+}
+
+.social .social-icon {
+  padding: 1rem;
+}
+
+.social a {
+  color: #242424 !important;
+}
+
+.social a:hover {
+  color: #242424bb !important;
+}
+.social p {
+  font-size: 1px !important;
+}
+.wel-text h2 {
+  letter-spacing: 0.5rem;
+}
+
+.wel-text {
+  margin: auto;
+  transition: all 0.3s;
+}
+
+.heading-primary {
+  margin: auto;
+}
+
+.avatar {
+  background-color: transparent !important;
+  margin: auto;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(0, 66, 246, 0.363),
+    rgba(255, 0, 0, 0.659)
+  );
+  background-blend-mode: screen;
+  border-radius: 1.5rem;
+  transition: all 0.5s;
+}
+
+.avatar:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(20, 166, 146),
+    rgb(2, 144, 144)
+  );
+  box-shadow: 10px 10px 10px rgba(53, 53, 53, 0.25);
+  transform: translateX(-5px) translateY(-5px);
+}
+.avatar img {
+  margin: 2px auto;
+  padding: 2.5rem;
+  border-radius: 50%;
+  width: 30rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-home {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+  .sec-left {
+    margin: 0.5rem;
+  }
+
+  .wel-text {
+    margin: 0 auto;
+    padding: 3rem;
+    font-size: 1.5rem !important;
+  }
+  .avatar {
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .avatar img {
+    padding: 0rem;
+    width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .sec-left {
+    margin: 2rem;
+  }
+  .wel-text h1 {
+    font-size: 2rem !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .wel-text {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+
+  .avatar img {
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wel-text h1 {
+    font-size: 1.4rem !important;
+  }
+  .wel-text {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+
+  .avatar img {
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wel-text {
+    margin: 1rem auto;
+    padding: 1rem;
+  }
+  .wel-text h1 {
+    font-size: 2rem !important;
+  }
+  .wel-text h3 {
+    font-size: 1.5rem !important;
+  }
+  .contact p {
+    margin: 0rem;
+  }
+}
