@@ -88,6 +88,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-self: flex-start;
+    height: auto;
   }
   .sec-left {
     margin: 0.5rem;
@@ -110,6 +111,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .section-home {
+    height: auto;
+  }
   .sec-left {
     margin: 2rem;
   }
@@ -118,6 +122,9 @@
   }
 }
 @media only screen and (max-width: 600px) {
+  .section-home {
+    height: auto;
+  }
   .wel-text {
     margin: 2rem auto;
     padding: 2rem;
@@ -129,6 +136,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .section-home {
+    height: auto;
+  }
   .wel-text h1 {
     font-size: 1.4rem !important;
   }
@@ -143,6 +153,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .section-home {
+    height: auto;
+  }
   .wel-text {
     margin: 1rem auto;
     padding: 1rem;
@@ -155,5 +168,21 @@
   }
   .contact p {
     margin: 0rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .section-home {
+    height: auto;
+  }
+  .wel-text {
+    margin: 0.5rem auto;
+    padding: 1rem;
+  }
+  .wel-text h1 {
+    font-size: 1.5rem !important;
+  }
+  .wel-text h3 {
+    font-size: 1rem !important;
   }
 }
